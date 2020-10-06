@@ -1,0 +1,105 @@
+h3 span {
+    font-size: 22px;
+}
+h3 input.search-input {
+    width: 300px;
+    margin-left: auto;
+    float: right
+}
+.mt32 {
+    margin-top: 32px;
+}
+
+#mobDate {
+
+    position: absolute;
+    left: 23%;
+  }
+
+  
+  #mobButton {
+
+    position: absolute;
+    left : 38%;
+
+  }
+
+  #mobText {
+    position: absolute;
+    left : 60%;
+
+  }
+
+  #count {
+    position: absolute;
+    top: 13%;
+  }
+
+
+  @media only screen and (max-width:1020px) {
+
+    #mobButton {
+
+        position: absolute;
+        left : 42%;
+    
+      }
+
+  }
+
+
+.dateIcon {
+ 
+    background-image: url('icon/icon_calender.svg');
+    background-size: 20px 30px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: 95% 30%;
+    width: 30px;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 3px 5px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+    width: 190px;
+    
+
+  }
+
+tr:hover td {
+background: 	#ADD8E6 !important;
+
+
+}
+
+thead{
+  background: 	#c5c5c5 !important;
+
+}
+
+
+button{
+    border-radius: 10px;
+    height: 35px;
+    width: 90px;
+    text-align: center;
+    background-color: #e2e2e2;
+    font-size: 15px;
+    color: black;
+    }
+  input{
+    height: 35px;
+    font-size: 15px;
+}
+
+
+.image{
+
+position: absolute;
+top : 50%;
+left : 45%;
+
+
+}
+
+
